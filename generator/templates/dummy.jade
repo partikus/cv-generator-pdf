@@ -22,18 +22,18 @@ html(lang="en")
       table#details
         tr
           td Experience in following industries:
-          td=model.details.experience
+          td=model.experience
         tr
           td Education:
-          td=model.details.education
+          td=model.education
         tr
           td Personal interests:
-          td=model.details.hobbies
+          td=model.hobbies
         tr
           td Language:
           td
             for lang in model.languages
-              span=lang.name + ' - ' + lang.level
+              span=lang.language.name + ' - ' + lang.level
     section
       p.subtitle Skills
       table#skills
