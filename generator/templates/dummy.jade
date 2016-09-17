@@ -1,0 +1,54 @@
+!!! 5
+html(lang="en")
+  head
+    title= 'Example CV'
+    link(href='/static/css/main.css', rel='stylesheet')
+  body
+    section
+      p.title=model.firstName + ' ' + model.lastName
+      p.subtitle=model.jobTitle
+    section
+      hr.bar
+      ul.skillPanel
+        each skill in model.skills
+          li
+            span=skill.skill.name
+            span='grade: ' + skill.level
+            div.levelPanel
+              for i in [1,2,3,4,5]
+                span.dot(class={True:'lightDot', False:'darkDot'}[skill.level<i])
+    section
+      hr.bar
+      table#details
+        tr
+          td Experience in following industries:
+          td=model.details.experience
+        tr
+          td Education:
+          td=model.details.education
+        tr
+          td Personal interests:
+          td=model.details.hobbies
+        tr
+          td Language:
+          td
+            for lang in model.languages
+              span=lang.name + ' - ' + lang.level
+    section
+      p.subtitle Skills
+      table#skills
+        tr
+          th Skill
+          th Used since
+          th Skill level (1-5)
+          th Last used
+        for skill in model.skills
+          tr
+            td=skill.skill.name
+            td=skill.startDate
+            td
+              div.levelPanel
+                for i in [1,2,3,4,5]
+                  span.dot(class={True:'lightDot', False:'darkDot'}[skill.level<i])
+            td=skill.lastUsage
+

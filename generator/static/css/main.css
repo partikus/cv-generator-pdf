@@ -1,0 +1,54 @@
+body {
+}
+
+.title {
+  font-size: 3em;
+}
+
+.subtitle {
+  font-size: 2em;
+  color: #ed1d61;
+}
+
+.bar {
+  height: 5px;
+  color: #ed1d61;
+  background: #ed1d61;
+  border: 0;
+}
+
+section {
+  margin: 40px;
+}
+
+ul.skillPanel {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+}
+
+ul.skillPanel li>* {
+  display: block;
+}
+
+.dot {
+  border-radius: 50%;
+  display: inline-block;
+  width: 0.75em;
+  height: 0.75em;
+  padding: 0px;
+  margin: 5px;
+}
+
+.lightDot {
+  background-color: yellow;
+}
+
+.darkDot {
+  background-color: brown;
+}
+
+table#details span {
+  display: block;
+}
