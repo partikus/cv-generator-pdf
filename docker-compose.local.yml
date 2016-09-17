@@ -1,0 +1,7 @@
+python3-server:
+  ports:
+    - "8090:5000"
+
+rabbit:
+  ports:
+    - "8444:15672"

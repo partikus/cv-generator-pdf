@@ -1,0 +1,16 @@
+data:
+  image: busybox
+  volumes:
+    - .:/usr/src/myapp
+
+python3-server:
+  image: "cvgenerator/generator"
+  command: "python3 . server"
+  links:
+    - rabbit
+  volumes_from:
+    - data
+  working_dir: /usr/src/myapp
+
+rabbit:
+  image: rabbitmq:3
