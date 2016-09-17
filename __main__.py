@@ -11,6 +11,9 @@ def main():
         if sys.argv[1] == 'server':
             from generator import server
             server.run()
+        if sys.argv[1] == 'queue':
+            from generator import queue_server
+            queue_server.run()
     else:
         print('pass either "demo" or "server" as an argument')
 

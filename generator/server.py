@@ -3,9 +3,8 @@ from flask import request
 from flask import render_template
 from flask import url_for
 from generator.util.dummy_data import dummy_employee
+from generator import converter
 import os
-import json
-from pdfkit import from_string
 
 
 app = Flask(__name__)
@@ -31,15 +30,12 @@ def echo():
 
 @app.route('/print/html', methods=['POST'])
 def html():
-    model = json.loads(request.data.decode())
-    return render_template('dummy.jade', model=model)
+    return converter.render_html('dummy.jade', request.data.decode())
 
 
 @app.route('/print/pdf', methods=['POST'])
 def pdf():
-    model = json.loads(request.data.decode())
-    output_file = '/tmp/output.pdf'
-    from_string(render_template('dummy.jade', model=model), output_file)
+    output_file = converter.render_pdf('dummy.jade', request.data.decode())
     return app.send_static_file(output_file)
 
 
