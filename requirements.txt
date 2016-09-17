@@ -1,4 +1,5 @@
 pdfkit
 flask
 pyjade
-pika
+beanstalkc3
+PyYaml

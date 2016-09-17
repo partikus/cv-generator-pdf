@@ -12,8 +12,11 @@ def main():
             from generator import server
             server.run()
         if sys.argv[1] == 'queue':
+            if len(sys.argv) < 4:
+                print('pass queue coordinates for queue command')
+                return
             from generator import queue_server
-            queue_server.run()
+            queue_server.run(sys.argv[2], int(sys.argv[3]))
     else:
         print('pass either "demo" or "server" as an argument')
 
