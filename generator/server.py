@@ -2,6 +2,7 @@ from flask import Flask
 from flask import request
 from flask import render_template
 from flask import url_for
+from flask import send_file
 from generator.util.dummy_data import dummy_employee
 from generator import converter
 import os
@@ -36,7 +37,7 @@ def html():
 @app.route('/print/pdf', methods=['POST'])
 def pdf():
     output_file = converter.render_pdf('dummy.jade', request.data.decode())
-    return app.send_static_file(output_file)
+    return send_file(output_file)
 
 
 def run(debug=True, host='0.0.0.0', port=5000):

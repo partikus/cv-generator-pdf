@@ -12,6 +12,11 @@ def render_html(template_name, json_model):
 def render_pdf(template_name, json_model):
     (handle, path) = tempfile.mkstemp(prefix='cv-generator')
     html_view = render_html(template_name, json_model)
-    from_string(html_view, path)
+
+    options = {
+        'user-style-sheet': 'generator/static/css/main.css'
+    }
+
+    from_string(html_view, path, options=options)
 
     return path
