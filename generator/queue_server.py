@@ -5,6 +5,7 @@ import json
 
 
 def run(host='localhost', port=14711):
+    print(" [o] Starting beanstalk connection")
     connection = beanstalkc.Connection(host=host, port=port)
     connection.watch('todo')
     connection.use('done')
@@ -19,8 +20,10 @@ def run(host='localhost', port=14711):
 
         result_path = converter.render_pdf('dummy.jade', json_model)
         with open(result_path, 'rb') as f:
-            response = json.dumps(
-                {'id': job.jid, 'body': base64.b64encode(f.read()).decode('utf-8')})
+            response = json.dumps({
+                'id': job.jid,
+                'body': base64.b64encode(f.read()).decode('utf-8')
+            })
 
         connection.put(response)
         job.delete()

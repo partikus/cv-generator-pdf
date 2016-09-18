@@ -5,12 +5,14 @@ data:
 
 python3-server:
   image: "cvgenerator/generator"
-  command: "python3 . server"
-  links:
-    - rabbit
+  command: ["python3", "-u", ".", "server"]
   volumes_from:
     - data
   working_dir: /usr/src/myapp
 
-rabbit:
-  image: rabbitmq:3
+python3-worker:
+  image: "cvgenerator/generator"
+  command: ["python3", "-u", ".", "queue", "10.10.33.204", "8444"]
+  volumes_from:
+    - data
+  working_dir: /usr/src/myapp

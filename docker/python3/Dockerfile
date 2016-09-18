@@ -13,5 +13,4 @@ COPY wkhtmltopdf.sh /usr/bin/wkhtmltopdf.sh
 
 RUN ln -s /usr/bin/wkhtmltopdf.sh /usr/local/bin/wkhtmltopdf
 
-RUN pip install pdfkit flask pyjade
-
+RUN pip install pdfkit flask pyjade beanstalkc3 PyYaml
