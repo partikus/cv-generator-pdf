@@ -1,0 +1,40 @@
+{
+    "id": 1,
+    "firstName": "John",
+    "lastName": "Rambo",
+    "education": "2000 - 2010 Video Gaming High School",
+    "email": "jrambo4@gmail.com",
+    "experience": "IT, music",
+    "hobbies": "playing chess",
+    "jobTitle": "security leader",
+    "languages": [
+        {
+            "id": 1,
+            "level": 5,
+            "language": {
+                "id": 1,
+                "iso3": "pol",
+                "name": "Polish"
+            }
+        },
+        {
+            "id": 2,
+            "level": 2,
+            "language": {
+                "id": 2,
+                "iso3": "eng",
+                "name": "English"
+            }
+        }
+    ],
+    "projects": [],
+    "skills": [
+        {
+            "id": 1,
+            "startDate": "2010-10-10T00:00:00+0200",
+            "lastUsage": "2010-10-10T00:00:00+0200",
+            "level": 10,
+            "skill": null
+        }
+    ]
+}

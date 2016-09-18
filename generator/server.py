@@ -2,8 +2,11 @@ from flask import Flask
 from flask import request
 from flask import render_template
 from flask import url_for
+from flask import send_file
 from generator.util.dummy_data import dummy_employee
+from generator import converter
 import os
+
 
 app = Flask(__name__)
 app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
@@ -24,6 +27,17 @@ def dummy():
 @app.route('/echo', methods=['POST'])
 def echo():
     return request.data.decode()
+
+
+@app.route('/print/html', methods=['POST'])
+def html():
+    return converter.render_html('dummy.jade', request.data.decode())
+
+
+@app.route('/print/pdf', methods=['POST'])
+def pdf():
+    output_file = converter.render_pdf('dummy.jade', request.data.decode())
+    return send_file(output_file)
 
 
 def run(debug=True, host='0.0.0.0', port=5000):
