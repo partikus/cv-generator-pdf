@@ -6,11 +6,9 @@ def dummy_employee():
         'username': 'ndyzma',
         'email': 'ndyzma@company.com',
         'jobTitle': 'multitasking ninja hacker',
-        'details': {
-            'experience': 'none',
-            'education': 'little',
-            'hobbies': 'alcohol'
-        },
+        'experience': 'none',
+        'education': 'little',
+        'hobbies': 'alcohol',
         'skills': [
             {
                 'skill': {'name': 'PHP', 'description': '', 'url': ''},
@@ -33,18 +31,24 @@ def dummy_employee():
         ],
         'languages': [
             {
-                'name': 'English',
-                'iso': 'en',
+                'language': {
+                    'name': 'English',
+                    'iso': 'en',
+                },
                 'level': 4
             },
             {
-                'name': 'French',
-                'iso': 'fr',
+                'language': {
+                    'name': 'French',
+                    'iso': 'fr',
+                },
                 'level': 3
             },
             {
-                'name': 'German',
-                'iso': 'de',
+                'language': {
+                    'name': 'German',
+                    'iso': 'de',
+                },
                 'level': 1
             },
         ],
