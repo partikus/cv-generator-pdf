@@ -11,14 +11,16 @@ body {
 }
 
 .bar {
-  height: 5px;
+  height: 10px;
   color: #ed1d61;
   background: #ed1d61;
   border: 0;
+  margin-bottom: 60px;
 }
 
 section {
-  margin: 40px;
+  margin: 60px;
+  margin-bottom: 100px;
 }
 
 ul.skillPanel {
@@ -47,6 +49,23 @@ ul.skillPanel li>* {
 
 .darkDot {
   background-color: brown;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 20px;
+}
+
+tr:not(:first-child) {
+    border-top: 1px solid lightgray;
+}
+
+table#skills {
+  text-align: center;
 }
 
 table#details span {

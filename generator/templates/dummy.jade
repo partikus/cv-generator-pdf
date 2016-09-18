@@ -12,7 +12,7 @@ html(lang="en")
       ul.skillPanel
         each skill in model.skills
           li
-            span=skill.skill.name
+            span.subtitle=skill.skill.name
             span='grade: ' + skill.level
             div.levelPanel
               for i in [1,2,3,4,5]
@@ -45,10 +45,10 @@ html(lang="en")
         for skill in model.skills
           tr
             td=skill.skill.name
-            td=skill.startDate
+            td=skill.startDate.split('T')[0]
             td
               div.levelPanel
                 for i in [1,2,3,4,5]
                   span.dot(class={True:'lightDot', False:'darkDot'}[skill.level<i])
-            td=skill.lastUsage
+            td=skill.lastUsage.split('T')[0]
 
