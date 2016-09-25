@@ -6,7 +6,8 @@ planned as a part of CV management system, this module takes employee informatio
 
 To start using, create a virtualenv for python, suggested way to do that:
 
-```python3 -mvenv local
+```
+python3 -mvenv local
 . local/bin/activate
 ```
 
