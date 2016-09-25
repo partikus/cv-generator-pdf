@@ -56,8 +56,8 @@ table {
   border-collapse: collapse;
 }
 
-td, th {
-  padding: 20px;
+td>*, th>* {
+  margin: 10px;
 }
 
 tr:not(:first-child) {
@@ -68,6 +68,7 @@ table#skills {
   text-align: center;
 }
 
-table#details span {
+table#details span#lang {
   display: block;
+  margin: 0px;
 }

@@ -21,34 +21,48 @@ html(lang="en")
       hr.bar
       table#details
         tr
-          td Experience in following industries:
-          td=model.experience
+          td
+            div Experience in following industries:
+          td
+            div=model.experience
         tr
-          td Education:
-          td=model.education
+          td
+            div Education:
+          td
+            div=model.education
         tr
-          td Personal interests:
-          td=model.hobbies
+          td
+            div Personal interests:
+          td
+            div=model.hobbies
         tr
-          td Language:
+          td
+            div Language:
           td
             for lang in model.languages
-              span=lang.language.name + ' - ' + lang.level
+              span#lang=lang.language.name + ' - ' + lang.level
     section
       p.subtitle Skills
       table#skills
         tr
-          th Skill
-          th Used since
-          th Skill level (1-5)
-          th Last used
+          th
+            div Skill
+          th
+            div Used since
+          th
+            div Skill level (1-5)
+          th
+            div Last used
         for skill in model.skills
           tr
-            td=skill.skill.name
-            td=skill.startDate.split('T')[0]
+            td
+              div=skill.skill.name
+            td
+              div=skill.startDate.split('T')[0]
             td
               div.levelPanel
                 for i in [1,2,3,4,5]
                   span.dot(class={True:'lightDot', False:'darkDot'}[skill.level<i])
-            td=skill.lastUsage.split('T')[0]
+            td
+              div=skill.lastUsage.split('T')[0]
 
