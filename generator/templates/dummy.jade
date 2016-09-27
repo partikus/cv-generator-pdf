@@ -10,7 +10,7 @@ html(lang="en")
     section
       hr.bar
       ul.skillPanel
-        each skill in model.skills
+        each skill in model.skills | sort(attribute='level', reverse=True) | batch(5) | first
           li
             span.subtitle=skill.skill.name
             span='grade: ' + skill.level
