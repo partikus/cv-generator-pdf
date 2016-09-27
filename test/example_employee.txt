@@ -25,16 +25,287 @@
                 "iso3": "eng",
                 "name": "English"
             }
+        },
+        {
+            "id": 3,
+            "level": 3,
+            "language": {
+                "id": 3,
+                "iso3": "ger",
+                "name": "German"
+            }
+        },
+        {
+            "id": 4,
+            "level": 4,
+            "language": {
+                "id": 4,
+                "iso3": "esp",
+                "name": "Spanish"
+            }
         }
     ],
     "projects": [],
     "skills": [
         {
-            "id": 1,
-            "startDate": "2010-10-10T00:00:00+0200",
-            "lastUsage": "2010-10-10T00:00:00+0200",
-            "level": 10,
-            "skill": null
+            "skill": {
+                "name": "PHP",
+                "description": "PHP PoWeR!!",
+                "url": "http://www.php.net/"
+            },
+            "startDate": "2004-02-12T15:19:21+00:00",
+            "lastUsage": "2008-02-12T15:19:21+00:00",
+            "level": 5
+        },
+        {
+            "skill": {
+                "name": "Vagrant",
+                "description": "vagrant destroy",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 1
+        },
+        {
+            "skill": {
+                "name": "ansible",
+                "description": "ansible wisdom",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 3
+        },
+        {
+            "skill": {
+                "name": "Java",
+                "description": "java base skill",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 4
+        },
+        {
+            "skill": {
+                "name": "Groovy",
+                "description": "groovy, baby",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 3
+        },
+        {
+            "skill": {
+                "name": "Clojure",
+                "description": "closure but with a 'J'",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 2
+        },
+        {
+            "skill": {
+                "name": "git",
+                "description": "better than svn in every way",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 5
+        },
+        {
+            "skill": {
+                "name": "svn",
+                "description": "still useful",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 3
+        },
+        {
+            "skill": {
+                "name": "maven",
+                "description": "java build tool",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 4
+        },
+        {
+            "skill": {
+                "name": "composer",
+                "description": "PHP build tool",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 2
+        },
+        {
+            "skill": {
+                "name": "python",
+                "description": "what more could you need",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 4
+        },
+        {
+            "skill": {
+                "name": "scrum",
+                "description": "you can be our next scrum master",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 1
+        },
+        {
+            "skill": {
+                "name": "spring",
+                "description": "java framework that everybody's talking about",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 3
+        },
+        {
+            "skill": {
+                "name": "PHP",
+                "description": "PHP PoWeR!!",
+                "url": "http://www.php.net/"
+            },
+            "startDate": "2004-02-12T15:19:21+00:00",
+            "lastUsage": "2008-02-12T15:19:21+00:00",
+            "level": 5
+        },
+        {
+            "skill": {
+                "name": "Vagrant",
+                "description": "vagrant destroy",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 1
+        },
+        {
+            "skill": {
+                "name": "ansible",
+                "description": "ansible wisdom",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 3
+        },
+        {
+            "skill": {
+                "name": "Java",
+                "description": "java base skill",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 4
+        },
+        {
+            "skill": {
+                "name": "Groovy",
+                "description": "groovy, baby",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 3
+        },
+        {
+            "skill": {
+                "name": "Clojure",
+                "description": "closure but with a 'J'",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 2
+        },
+        {
+            "skill": {
+                "name": "git",
+                "description": "better than svn in every way",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 5
+        },
+        {
+            "skill": {
+                "name": "svn",
+                "description": "still useful",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 3
+        },
+        {
+            "skill": {
+                "name": "maven",
+                "description": "java build tool",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 4
+        },
+        {
+            "skill": {
+                "name": "composer",
+                "description": "PHP build tool",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 2
+        },
+        {
+            "skill": {
+                "name": "python",
+                "description": "what more could you need",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 4
+        },
+        {
+            "skill": {
+                "name": "scrum",
+                "description": "you can be our next scrum master",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 1
+        },
+        {
+            "skill": {
+                "name": "spring",
+                "description": "java framework that everybody's talking about",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 3
         }
     ]
 }
