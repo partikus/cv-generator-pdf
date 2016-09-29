@@ -39,8 +39,9 @@ html(lang="en")
           td
             div Language:
           td
-            for lang in model.languages
-              span#lang=lang.language.name + ' - ' + lang.level
+            div
+              for lang in model.languages
+                span#lang=lang.language.name + ' - ' + lang.level
     section
       p.subtitle Skills
       table#skills
@@ -65,4 +66,44 @@ html(lang="en")
                   span.dot(class={True:'lightDot', False:'darkDot'}[skill.level<i])
             td
               div=skill.lastUsage.split('T')[0]
+    section
+      p.subtitle Employment history
+      for project in model.projects
+        div.project-container
+          table.project
+            tr
+              th
+                div.label Company:
+              th
+                div=project.company
+            tr
+              td
+                div.label Project code name:
+              td
+                div=project.name
+            tr
+              td
+                div.label Time period:
+              td
+                div='' | month_range(project.startDate, project.endDate)
+            tr
+              td
+                div.label Role:
+              td
+                div=project.role
+            tr
+              td
+                div.label Responsibilities:
+              td
+                div=project.responsibilities
+            tr
+              td
+                div.label Tools & technologies used:
+              td
+                div=project.skills | map(attribute='name') | join(', ')
+            tr
+              td
+                div.label Project description:
+              td
+                div=project.description
 

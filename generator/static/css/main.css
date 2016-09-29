@@ -56,6 +56,10 @@ table {
   border-collapse: collapse;
 }
 
+table th, table td {
+  vertical-align: top;
+}
+
 td>*, th>* {
   margin: 10px;
 }
@@ -70,5 +74,28 @@ table#skills {
 
 table#details span#lang {
   display: block;
-  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
+
+.project-container {
+  margin-bottom: 80px;
+}
+
+table.project {
+  text-align: left;
+}
+
+table.project th {
+  background-color: #eeeeee;
+}
+
+table.project th:first-child, table.project td:first-child {
+  font-weight: bold;
+  width: 40%;
+}
+
+table.project th:not(:first-child), table.project td:not(:first-child) {
+  font-weight: normal;
+}
+
