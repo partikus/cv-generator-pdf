@@ -7,10 +7,9 @@ RUN apt-get -q update && \
         wkhtmltopdf \
         git-core \
         xvfb \
+        gdebi \
+        && wget http://download.gna.org/wkhtmltopdf/0.12/0.12.2/wkhtmltox-0.12.2_linux-wheezy-amd64.deb \
+        && gdebi -n wkhtmltox-0.12.2_linux-wheezy-amd64.deb \
         && rm -rf /var/lib/apt/lists/*
-
-COPY wkhtmltopdf.sh /usr/bin/wkhtmltopdf.sh
-
-RUN ln -s /usr/bin/wkhtmltopdf.sh /usr/local/bin/wkhtmltopdf
 
 RUN pip install pdfkit flask pyjade beanstalkc3 PyYaml
