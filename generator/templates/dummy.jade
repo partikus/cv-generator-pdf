@@ -7,41 +7,43 @@ html(lang="en")
     section
       p.title=model.firstName + ' ' + model.lastName
       p.subtitle=model.jobTitle
-    section
-      hr.bar
-      ul.skillPanel
-        each skill in model.skills | sort(attribute='level', reverse=True) | batch(5) | first
-          li
-            span.subtitle=skill.skill.name
-            span='grade: ' + skill.level
-            div.levelPanel
-              for i in [1,2,3,4,5]
-                span.dot(class={True:'lightDot', False:'darkDot'}[skill.level<i])
-    section
-      hr.bar
-      table#details
-        tr
-          td
-            div Experience in following industries:
-          td
-            div=model.experience
-        tr
-          td
-            div Education:
-          td
-            div=model.education
-        tr
-          td
-            div Personal interests:
-          td
-            div=model.hobbies
-        tr
-          td
-            div Language:
-          td
-            div
-              for lang in model.languages
-                span#lang=lang.language.name + ' - ' + lang.level
+      subsection
+        hr.bar
+        table#skillPanel
+          tr
+            each skill in model.skills | sort(attribute='level', reverse=True) | batch(5) | first
+              td
+                .skillContainer
+                  .subtitle=skill.skill.name
+                  div='grade: ' + skill.level
+                  div.levelPanel
+                    for i in [1,2,3,4,5]
+                      span.dot(class={True:'lightDot', False:'darkDot'}[skill.level<i])
+        hr.bar
+      subsection
+        table#details
+          tr
+            td
+              div Experience in following industries:
+            td
+              div=model.experience
+          tr
+            td
+              div Education:
+            td
+              div=model.education
+          tr
+            td
+              div Personal interests:
+            td
+              div=model.hobbies
+          tr
+            td
+              div Language:
+            td
+              div
+                for lang in model.languages
+                  span#lang=lang.language.name + ' - ' + lang.level
     section
       p.subtitle Skills
       table#skills

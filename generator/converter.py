@@ -47,7 +47,10 @@ def render_pdf(template_name, json_model):
     html_view = render_html(template_name, json_model)
 
     options = {
-        'user-style-sheet': 'generator/static/css/main.css'
+        'user-style-sheet': 'generator/static/css/main.css',
+        'footer-html': 'generator/static/html/footer.html',
+        'margin-bottom': '50mm',
+        'margin-top': '25mm'
     }
 
     from_string(html_view, path, options=options)
