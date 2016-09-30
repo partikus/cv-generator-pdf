@@ -7,48 +7,105 @@ html(lang="en")
     section
       p.title=model.firstName + ' ' + model.lastName
       p.subtitle=model.jobTitle
-    section
-      hr.bar
-      ul.skillPanel
-        each skill in model.skills
-          li
-            span=skill.skill.name
-            span='grade: ' + skill.level
-            div.levelPanel
-              for i in [1,2,3,4,5]
-                span.dot(class={True:'lightDot', False:'darkDot'}[skill.level<i])
-    section
-      hr.bar
-      table#details
-        tr
-          td Experience in following industries:
-          td=model.experience
-        tr
-          td Education:
-          td=model.education
-        tr
-          td Personal interests:
-          td=model.hobbies
-        tr
-          td Language:
-          td
-            for lang in model.languages
-              span=lang.language.name + ' - ' + lang.level
+      subsection
+        hr.bar
+        table#skillPanel
+          tr
+            each skill in model.skills | sort(attribute='level', reverse=True) | batch(5) | first
+              td
+                .skillContainer
+                  .subtitle=skill.skill.name
+                  div='grade: ' + skill.level
+                  div.levelPanel
+                    for i in [1,2,3,4,5]
+                      span.dot(class={True:'lightDot', False:'darkDot'}[skill.level<i])
+        hr.bar
+      subsection
+        table#details
+          tr
+            td
+              div Experience in following industries:
+            td
+              div=model.experience
+          tr
+            td
+              div Education:
+            td
+              div=model.education
+          tr
+            td
+              div Personal interests:
+            td
+              div=model.hobbies
+          tr
+            td
+              div Language:
+            td
+              div
+                for lang in model.languages
+                  span#lang=lang.language.name + ' - ' + lang.level
     section
       p.subtitle Skills
       table#skills
         tr
-          th Skill
-          th Used since
-          th Skill level (1-5)
-          th Last used
+          th
+            div Skill
+          th
+            div Used since
+          th
+            div Skill level (1-5)
+          th
+            div Last used
         for skill in model.skills
           tr
-            td=skill.skill.name
-            td=skill.startDate
+            td
+              div=skill.skill.name
+            td
+              div=skill.startDate.split('T')[0]
             td
               div.levelPanel
                 for i in [1,2,3,4,5]
                   span.dot(class={True:'lightDot', False:'darkDot'}[skill.level<i])
-            td=skill.lastUsage
+            td
+              div=skill.lastUsage.split('T')[0]
+    section
+      p.subtitle Employment history
+      for project in model.projects
+        div.project-container
+          table.project
+            tr
+              th
+                div.label Company:
+              th
+                div=project.company
+            tr
+              td
+                div.label Project code name:
+              td
+                div=project.name
+            tr
+              td
+                div.label Time period:
+              td
+                div='' | month_range(project.startDate, project.endDate)
+            tr
+              td
+                div.label Role:
+              td
+                div=project.role
+            tr
+              td
+                div.label Responsibilities:
+              td
+                div=project.responsibilities
+            tr
+              td
+                div.label Tools & technologies used:
+              td
+                div=project.skills | map(attribute='name') | join(', ')
+            tr
+              td
+                div.label Project description:
+              td
+                div=project.description
 

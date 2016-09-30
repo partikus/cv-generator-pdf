@@ -37,7 +37,7 @@ def dummy(name):
 def dummy_pdf(name):
     model = dummy_model(name)
     output_file = converter.render_pdf('dummy.jade', json.dumps(model, ensure_ascii=False))
-    return send_file(output_file)
+    return send_file(output_file, mimetype='application/pdf')
 
 
 @app.route('/echo', methods=['POST'])

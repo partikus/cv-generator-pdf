@@ -25,16 +25,608 @@
                 "iso3": "eng",
                 "name": "English"
             }
+        },
+        {
+            "id": 3,
+            "level": 3,
+            "language": {
+                "id": 3,
+                "iso3": "ger",
+                "name": "German"
+            }
+        },
+        {
+            "id": 4,
+            "level": 4,
+            "language": {
+                "id": 4,
+                "iso3": "esp",
+                "name": "Spanish"
+            }
         }
     ],
-    "projects": [],
+    "projects": [
+        {
+            "name": "Nunc a tempor velit.",
+            "company": "Alaska tech",
+            "role": "sole developer",
+            "responsibilities": "Write awesome code!",
+            "description": "Nunc a tempor velit. Phasellus eleifend aliquam nunc ut auctor. Donec eu urna condimentum massa tempus maximus. Pellentesque malesuada, tellus a malesuada dictum, libero lacus euismod lacus, faucibus vehicula nunc libero vitae enim. Nam volutpat nunc nec euismod semper. Aliquam erat volutpat. Nulla sit amet faucibus lacus, at ornare ligula. Suspendisse quis dolor imperdiet ex elementum suscipit ac nec augue. Maecenas volutpat fermentum libero. Maecenas semper scelerisque justo, vitae iaculis ex tincidunt et. Nulla urna ex, malesuada a aliquet nec, ultricies id justo. Vestibulum erat lacus, vehicula sed ex a, placerat feugiat erat. Phasellus bibendum turpis sed sapien sodales maximus. Donec dui justo, blandit a tellus ultrices, congue condimentum nibh. Maecenas pretium pulvinar mi id egestas. Mauris maximus, ex sed sodales malesuada, risus ante tempus ligula, nec tincidunt magna augue non massa.",
+            "startDate": "2014-02-12T15:19:21+00:00",
+            "endDate": "",
+            "skills": [
+                {
+                    "name": "PHP",
+                    "description": "vagrant destroy",
+                    "url": "https://www.vagrantup.com/"
+                }
+            ]
+        },
+        {
+            "name": "Integer ultricies fringilla arcu nec vehicula.",
+            "company": "Alaska tech",
+            "role": "sole developer",
+            "responsibilities": "Write awesome code!",
+            "description": "Integer ultricies fringilla arcu nec vehicula. Morbi metus quam, consectetur nec finibus non, rhoncus ut diam. Fusce nisi nisl, lacinia in fringilla ut, pulvinar vitae ex. Donec facilisis vel ipsum ac efficitur. Fusce varius, orci eu mollis bibendum, nisl velit vehicula turpis, vitae dignissim urna eros venenatis enim. Integer cursus, massa in suscipit suscipit, erat diam sollicitudin turpis, eu gravida elit mi sit amet felis. Morbi eu nunc in neque gravida imperdiet sed in magna. Suspendisse interdum neque eget leo tempus egestas.",
+            "startDate": "2014-02-12T15:19:21+00:00",
+            "endDate": "",
+            "skills": [
+                {
+                    "name": "PHP",
+                    "description": "vagrant destroy",
+                    "url": "https://www.vagrantup.com/"
+                }
+            ]
+        },
+        {
+            "name": "Pellentesque lacus lectus, feugiat non urna sit amet, volutpat volutpat ex.",
+            "company": "Alaska tech",
+            "role": "sole developer",
+            "responsibilities": "Write awesome code!",
+            "description": "Pellentesque lacus lectus, feugiat non urna sit amet, volutpat volutpat ex. Nunc ac consequat odio. Fusce sed lectus ac tellus malesuada tempor. Aliquam ante ligula, cursus sit amet ullamcorper in, porttitor nec tellus. Vestibulum et vulputate erat, et congue elit. Duis erat lacus, auctor ut nisl sed, tincidunt ullamcorper felis. Etiam laoreet erat nec sapien aliquam elementum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum id quam at purus pulvinar tristique dictum eget dui. Curabitur non quam eu dui pellentesque venenatis sit amet ut tellus. Aliquam placerat cursus tempor. Fusce a scelerisque velit, vel viverra justo.",
+            "startDate": "2014-02-12T15:19:21+00:00",
+            "endDate": "",
+            "skills": [
+                {
+                    "name": "PHP",
+                    "description": "vagrant destroy",
+                    "url": "https://www.vagrantup.com/"
+                }
+            ]
+        },
+        {
+            "name": "In quis consequat augue.",
+            "company": "Alaska tech",
+            "role": "sole developer",
+            "responsibilities": "Write awesome code!",
+            "description": "In quis consequat augue. Suspendisse consequat, urna et malesuada aliquet, purus ligula aliquet justo, a consectetur diam enim sit amet mi. Donec eget turpis sit amet metus porttitor pellentesque. Quisque bibendum pharetra blandit. Nunc laoreet lectus sit amet lorem suscipit porta. Sed vel aliquam nibh, quis ornare dui. Sed augue orci, mattis vel bibendum sed, fermentum eu ipsum. Duis eu pulvinar eros. Integer ut iaculis ipsum. Vestibulum facilisis ullamcorper euismod.",
+            "startDate": "2014-02-12T15:19:21+00:00",
+            "endDate": "",
+            "skills": [
+                {
+                    "name": "PHP",
+                    "description": "vagrant destroy",
+                    "url": "https://www.vagrantup.com/"
+                }
+            ]
+        },
+        {
+            "name": "Ut efficitur facilisis iaculis.",
+            "company": "Alaska tech",
+            "role": "sole developer",
+            "responsibilities": "Write awesome code!",
+            "description": "Ut efficitur facilisis iaculis. Etiam a elit massa. Praesent a nisi id odio dictum vulputate. Maecenas sed felis sed turpis tempus pulvinar. Mauris molestie eu turpis vulputate laoreet. In ut neque quis odio sagittis rhoncus non ut nisl. Aliquam non tellus ultricies, posuere nisl ut, faucibus urna. Ut placerat dapibus elit eget luctus. Aenean nec mauris sed nunc aliquam vehicula ut in risus.",
+            "startDate": "2014-02-12T15:19:21+00:00",
+            "endDate": "",
+            "skills": [
+                {
+                    "name": "PHP",
+                    "description": "vagrant destroy",
+                    "url": "https://www.vagrantup.com/"
+                }
+            ]
+        },
+        {
+            "name": "Aliquam et justo magna.",
+            "company": "Alaska tech",
+            "role": "sole developer",
+            "responsibilities": "Write awesome code!",
+            "description": "Aliquam et justo magna. Suspendisse potenti. Duis justo purus, facilisis nec dapibus sit amet, ornare id lorem. Ut posuere massa et nunc ullamcorper tincidunt. Curabitur finibus eu tortor porttitor vulputate. Nullam a metus dui. Morbi vel eros dolor. Donec sodales viverra dolor, nec pellentesque est molestie sit amet. Sed eleifend venenatis mi, sed aliquam velit dignissim et. Suspendisse libero erat, dignissim vel imperdiet quis, gravida pulvinar mi. Ut sit amet imperdiet urna.",
+            "startDate": "2014-02-12T15:19:21+00:00",
+            "endDate": "",
+            "skills": [
+                {
+                    "name": "PHP",
+                    "description": "vagrant destroy",
+                    "url": "https://www.vagrantup.com/"
+                }
+            ]
+        },
+        {
+            "name": "Donec facilisis dignissim lacus eu hendrerit.",
+            "company": "Alaska tech",
+            "role": "sole developer",
+            "responsibilities": "Write awesome code!",
+            "description": "Donec facilisis dignissim lacus eu hendrerit. Morbi in risus pretium, iaculis nisl tincidunt, condimentum ante. Phasellus ex quam, tempus et sem et, lacinia suscipit risus. Vivamus sagittis justo sed eros malesuada varius ut nec quam. Morbi quis diam sem. In posuere lorem eget consequat efficitur. Phasellus feugiat neque posuere, sodales sapien at, tincidunt ipsum. Vivamus feugiat, mi eu pharetra elementum, lectus dolor porta libero, id hendrerit lacus velit non odio. Curabitur quis erat consectetur augue hendrerit volutpat eu at sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla vitae ex nec nibh consequat scelerisque. Sed vel ex at risus imperdiet euismod. Donec vulputate magna at magna lacinia, eget eleifend libero vulputate. Aliquam in quam a metus accumsan aliquet eu eu diam. Nunc dictum scelerisque euismod.",
+            "startDate": "2014-02-12T15:19:21+00:00",
+            "endDate": "",
+            "skills": [
+                {
+                    "name": "PHP",
+                    "description": "vagrant destroy",
+                    "url": "https://www.vagrantup.com/"
+                }
+            ]
+        },
+        {
+            "name": "In vel mauris lectus.",
+            "company": "Alaska tech",
+            "role": "sole developer",
+            "responsibilities": "Write awesome code!",
+            "description": "In vel mauris lectus. Ut id arcu pharetra orci tristique convallis ac pretium est. In eget ex vel mi bibendum commodo. Donec vestibulum sagittis fermentum. Proin eu est urna. Vestibulum sit amet enim ac turpis gravida lobortis. Praesent eget magna sit amet nibh porttitor tempus.",
+            "startDate": "2014-02-12T15:19:21+00:00",
+            "endDate": "",
+            "skills": [
+                {
+                    "name": "PHP",
+                    "description": "vagrant destroy",
+                    "url": "https://www.vagrantup.com/"
+                }
+            ]
+        },
+        {
+            "name": "Nam eu rutrum ante.",
+            "company": "Alaska tech",
+            "role": "sole developer",
+            "responsibilities": "Write awesome code!",
+            "description": "Nam eu rutrum ante. Aenean tincidunt orci lobortis enim scelerisque interdum. Pellentesque eget erat laoreet, semper mi vitae, blandit justo. Nulla lacinia accumsan diam ac consequat. Maecenas tincidunt mollis augue, ac efficitur nisl vestibulum et. Nullam venenatis sollicitudin lobortis. Nulla rutrum dolor non tincidunt eleifend. Aenean mauris mauris, dictum a mi vel, vestibulum mattis justo. Suspendisse ac blandit orci.",
+            "startDate": "2014-02-12T15:19:21+00:00",
+            "endDate": "",
+            "skills": [
+                {
+                    "name": "PHP",
+                    "description": "vagrant destroy",
+                    "url": "https://www.vagrantup.com/"
+                }
+            ]
+        },
+        {
+            "name": "Sed a varius mi, ac porta velit.",
+            "company": "Alaska tech",
+            "role": "sole developer",
+            "responsibilities": "Write awesome code!",
+            "description": "Sed a varius mi, ac porta velit. Curabitur sit amet ornare erat. In et vestibulum sem. Curabitur hendrerit nisl ut vehicula commodo. In tempor libero nibh, sed tristique mi imperdiet quis. Morbi dignissim elit nec ligula imperdiet ultricies at id mi. Quisque blandit, lacus ut condimentum aliquam, libero nisl pulvinar magna, et pretium lacus nunc in sem. Maecenas lobortis sodales urna, in lobortis orci iaculis nec. Vestibulum bibendum lobortis ligula, vitae rhoncus magna imperdiet in. Donec a sem eget arcu varius feugiat ut ac tellus. Aenean et laoreet nisi.",
+            "startDate": "2014-02-12T15:19:21+00:00",
+            "endDate": "",
+            "skills": [
+                {
+                    "name": "PHP",
+                    "description": "vagrant destroy",
+                    "url": "https://www.vagrantup.com/"
+                }
+            ]
+        },
+        {
+            "name": "Fusce quis eros dictum, tincidunt quam eget, efficitur quam.",
+            "company": "Alaska tech",
+            "role": "sole developer",
+            "responsibilities": "Write awesome code!",
+            "description": "Fusce quis eros dictum, tincidunt quam eget, efficitur quam. Duis vitae est tempor, vulputate leo at, posuere leo. Suspendisse potenti. Donec lobortis in justo sed bibendum. Praesent ut suscipit turpis. Phasellus malesuada urna gravida vulputate laoreet. Duis justo dui, dapibus eu ultrices ac, ultrices non erat. Aliquam mi nulla, luctus a lorem at, euismod laoreet odio. Sed bibendum lobortis lectus, at malesuada mi elementum id.",
+            "startDate": "2014-02-12T15:19:21+00:00",
+            "endDate": "",
+            "skills": [
+                {
+                    "name": "PHP",
+                    "description": "vagrant destroy",
+                    "url": "https://www.vagrantup.com/"
+                }
+            ]
+        },
+        {
+            "name": "Etiam congue sem at finibus varius.",
+            "company": "Alaska tech",
+            "role": "sole developer",
+            "responsibilities": "Write awesome code!",
+            "description": "Etiam congue sem at finibus varius. Sed velit nisi, tempus bibendum laoreet fringilla, auctor aliquam sapien. Vestibulum iaculis urna vel odio viverra pharetra. Morbi vestibulum elit ac ante sagittis, in placerat ex viverra. Nunc vel efficitur magna. Quisque consectetur elementum odio et dapibus. Sed nulla urna, blandit eu eleifend vitae, ultricies id lacus. Nulla facilisi.",
+            "startDate": "2014-02-12T15:19:21+00:00",
+            "endDate": "",
+            "skills": [
+                {
+                    "name": "PHP",
+                    "description": "vagrant destroy",
+                    "url": "https://www.vagrantup.com/"
+                }
+            ]
+        },
+        {
+            "name": "Nam commodo, lectus ut efficitur mattis, nibh enim iaculis turpis, at consequat erat ligula a ante.",
+            "company": "Alaska tech",
+            "role": "sole developer",
+            "responsibilities": "Write awesome code!",
+            "description": "Nam commodo, lectus ut efficitur mattis, nibh enim iaculis turpis, at consequat erat ligula a ante. Phasellus tincidunt dolor ac pharetra vestibulum. Integer facilisis augue eros, a ullamcorper felis porta eget. Integer euismod elit turpis, id iaculis massa faucibus ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet sollicitudin odio. Nullam fermentum diam enim, id auctor tortor molestie sed. Morbi ac turpis a diam rhoncus sodales a vitae turpis. Sed ullamcorper lectus nec venenatis aliquet. Proin ut purus ut felis sodales lacinia nec fermentum lorem. Quisque nec ante congue, vulputate eros non, viverra odio. Sed suscipit et nulla sed fermentum. Curabitur tristique rutrum nunc. Aliquam erat volutpat. Pellentesque vel mattis mi, vel sodales mi. Ut enim nibh, molestie vel tempor vitae, tempus vitae neque.",
+            "startDate": "2014-02-12T15:19:21+00:00",
+            "endDate": "",
+            "skills": [
+                {
+                    "name": "PHP",
+                    "description": "vagrant destroy",
+                    "url": "https://www.vagrantup.com/"
+                }
+            ]
+        },
+        {
+            "name": "Quisque vel sem at arcu finibus volutpat.",
+            "company": "Alaska tech",
+            "role": "sole developer",
+            "responsibilities": "Write awesome code!",
+            "description": "Quisque vel sem at arcu finibus volutpat. Morbi eu dolor enim. Quisque vitae sem et dolor venenatis tincidunt. Suspendisse auctor sed risus ac ultricies. Ut sed libero ac tortor vehicula lobortis at et nisl. Donec aliquet ex non neque vestibulum, in maximus diam tincidunt. Donec imperdiet rutrum ante, mattis malesuada lacus suscipit ut. Vivamus at laoreet orci. Integer dictum lacinia nisl, sit amet malesuada sem mattis vitae. Curabitur sagittis elit sit amet imperdiet scelerisque.",
+            "startDate": "2014-02-12T15:19:21+00:00",
+            "endDate": "",
+            "skills": [
+                {
+                    "name": "PHP",
+                    "description": "vagrant destroy",
+                    "url": "https://www.vagrantup.com/"
+                }
+            ]
+        },
+        {
+            "name": "Maecenas vestibulum quis ipsum vitae dignissim.",
+            "company": "Alaska tech",
+            "role": "sole developer",
+            "responsibilities": "Write awesome code!",
+            "description": "Maecenas vestibulum quis ipsum vitae dignissim. In hac habitasse platea dictumst. Donec facilisis, dui vehicula egestas pharetra, est ipsum porttitor neque, et fermentum sem libero sed dui. Cras tincidunt laoreet convallis. Morbi auctor diam nec augue iaculis, varius malesuada ex finibus. Sed ultrices orci condimentum ante accumsan euismod. In hac habitasse platea dictumst. Aenean turpis risus, efficitur vestibulum erat id, pretium sollicitudin velit. Sed vitae tristique leo. Duis egestas leo velit. Quisque non leo a libero tincidunt gravida ac quis libero. Nam id nibh sit amet metus posuere tristique.",
+            "startDate": "2014-02-12T15:19:21+00:00",
+            "endDate": "",
+            "skills": [
+                {
+                    "name": "PHP",
+                    "description": "vagrant destroy",
+                    "url": "https://www.vagrantup.com/"
+                }
+            ]
+        },
+        {
+            "name": "Sed vulputate ex hendrerit turpis eleifend, id mattis enim dignissim.",
+            "company": "Alaska tech",
+            "role": "sole developer",
+            "responsibilities": "Write awesome code!",
+            "description": "Sed vulputate ex hendrerit turpis eleifend, id mattis enim dignissim. Suspendisse blandit lorem id justo dapibus, at auctor lacus maximus. Nam et sapien a mi tempor lacinia. In dictum nunc vel orci placerat suscipit dapibus vitae risus. Quisque semper ex a sapien gravida lobortis. Integer suscipit mattis ante, vel consectetur ante rutrum eget. Aenean imperdiet tellus orci, et laoreet velit luctus eu. Morbi cursus purus quis magna convallis consequat. Nam tristique rutrum imperdiet. Duis eget lacinia nulla, sed efficitur diam. Nullam scelerisque eros vel sem rhoncus, ac volutpat leo porttitor. Aliquam mattis felis gravida sem rutrum, in consectetur justo hendrerit. Donec vel eros purus.",
+            "startDate": "2014-02-12T15:19:21+00:00",
+            "endDate": "",
+            "skills": [
+                {
+                    "name": "PHP",
+                    "description": "vagrant destroy",
+                    "url": "https://www.vagrantup.com/"
+                }
+            ]
+        },
+        {
+            "name": "In condimentum hendrerit euismod.",
+            "company": "Alaska tech",
+            "role": "sole developer",
+            "responsibilities": "Write awesome code!",
+            "description": "In condimentum hendrerit euismod. Vivamus non mauris sit amet sem pharetra tincidunt eu sit amet turpis. Suspendisse luctus lacus vel iaculis tincidunt. Aenean et erat volutpat nulla auctor elementum in volutpat massa. Praesent ut enim accumsan, tempus orci ac, venenatis ex. Cras dolor odio, accumsan ac felis non, semper suscipit diam. Praesent bibendum mauris a tellus iaculis, id dictum purus sagittis. Nam ac ipsum id mi placerat dapibus. Phasellus gravida velit sit amet consectetur consectetur. Vivamus sed augue rhoncus, fermentum nisl efficitur, placerat risus. Sed nulla dolor, malesuada a convallis in, mattis id justo.",
+            "startDate": "2014-02-12T15:19:21+00:00",
+            "endDate": "",
+            "skills": [
+                {
+                    "name": "PHP",
+                    "description": "vagrant destroy",
+                    "url": "https://www.vagrantup.com/"
+                }
+            ]
+        },
+        {
+            "name": "Nunc fermentum euismod quam vel maximus.",
+            "company": "Alaska tech",
+            "role": "sole developer",
+            "responsibilities": "Write awesome code!",
+            "description": "Nunc fermentum euismod quam vel maximus. Nulla hendrerit mi quis felis posuere, ut ornare urna tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc vestibulum dolor eros, at congue elit hendrerit sit amet. Vestibulum rhoncus erat at augue tempus, sed eleifend urna venenatis. Pellentesque fermentum erat a leo laoreet vehicula. Morbi sodales ultrices elit, a blandit est aliquam sit amet. Donec velit purus, bibendum et dui vitae, varius congue odio. Phasellus vitae condimentum eros, ut tincidunt dolor. Etiam consectetur maximus enim at finibus. Sed vehicula lectus vel tincidunt ultrices.",
+            "startDate": "2014-02-12T15:19:21+00:00",
+            "endDate": "",
+            "skills": [
+                {
+                    "name": "PHP",
+                    "description": "vagrant destroy",
+                    "url": "https://www.vagrantup.com/"
+                }
+            ]
+        },
+        {
+            "name": "Phasellus rutrum maximus arcu et vulputate.",
+            "company": "Alaska tech",
+            "role": "sole developer",
+            "responsibilities": "Write awesome code!",
+            "description": "Phasellus rutrum maximus arcu et vulputate. Phasellus in felis pellentesque, finibus risus quis, molestie arcu. Nullam dolor mi, ullamcorper id lacinia dictum, vulputate in turpis. Maecenas eget fringilla ligula, feugiat elementum odio. Fusce non nibh sem. Aliquam porttitor dolor quis eleifend ultrices. Donec porttitor euismod massa sit amet dapibus. Nunc luctus lacus vel est interdum, non consequat magna auctor.",
+            "startDate": "2014-02-12T15:19:21+00:00",
+            "endDate": "",
+            "skills": [
+                {
+                    "name": "PHP",
+                    "description": "vagrant destroy",
+                    "url": "https://www.vagrantup.com/"
+                }
+            ]
+        },
+        {
+            "name": "Morbi mi tortor, aliquet non pretium ut, faucibus vel dolor.",
+            "company": "Alaska tech",
+            "role": "sole developer",
+            "responsibilities": "Write awesome code!",
+            "description": "Morbi mi tortor, aliquet non pretium ut, faucibus vel dolor. Aenean dignissim fermentum orci sit amet rutrum. Nam non consequat nisi. Maecenas viverra commodo purus, sit amet sagittis enim laoreet vitae. Nulla in risus at odio blandit dictum. Vivamus velit elit, placerat viverra magna sed, iaculis auctor nulla. Duis egestas ornare enim at interdum. Nullam tristique aliquam ultrices. In finibus leo et lorem tincidunt sagittis. Ut eget dolor vel nibh cursus dapibus sed at nulla.",
+            "startDate": "2014-02-12T15:19:21+00:00",
+            "endDate": "",
+            "skills": [
+                {
+                    "name": "PHP",
+                    "description": "vagrant destroy",
+                    "url": "https://www.vagrantup.com/"
+                }
+            ]
+        }
+    ],
     "skills": [
         {
-            "id": 1,
-            "startDate": "2010-10-10T00:00:00+0200",
-            "lastUsage": "2010-10-10T00:00:00+0200",
-            "level": 10,
-            "skill": null
+            "skill": {
+                "name": "PHP",
+                "description": "PHP PoWeR!!",
+                "url": "http://www.php.net/"
+            },
+            "startDate": "2004-02-12T15:19:21+00:00",
+            "lastUsage": "2008-02-12T15:19:21+00:00",
+            "level": 5
+        },
+        {
+            "skill": {
+                "name": "Vagrant",
+                "description": "vagrant destroy",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 1
+        },
+        {
+            "skill": {
+                "name": "ansible",
+                "description": "ansible wisdom",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 3
+        },
+        {
+            "skill": {
+                "name": "Java",
+                "description": "java base skill",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 4
+        },
+        {
+            "skill": {
+                "name": "Groovy",
+                "description": "groovy, baby",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 3
+        },
+        {
+            "skill": {
+                "name": "Clojure",
+                "description": "closure but with a 'J'",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 2
+        },
+        {
+            "skill": {
+                "name": "git",
+                "description": "better than svn in every way",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 5
+        },
+        {
+            "skill": {
+                "name": "svn",
+                "description": "still useful",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 3
+        },
+        {
+            "skill": {
+                "name": "maven",
+                "description": "java build tool",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 4
+        },
+        {
+            "skill": {
+                "name": "composer",
+                "description": "PHP build tool",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 2
+        },
+        {
+            "skill": {
+                "name": "python",
+                "description": "what more could you need",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 4
+        },
+        {
+            "skill": {
+                "name": "scrum",
+                "description": "you can be our next scrum master",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 1
+        },
+        {
+            "skill": {
+                "name": "spring",
+                "description": "java framework that everybody's talking about",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 3
+        },
+        {
+            "skill": {
+                "name": "PHP",
+                "description": "PHP PoWeR!!",
+                "url": "http://www.php.net/"
+            },
+            "startDate": "2004-02-12T15:19:21+00:00",
+            "lastUsage": "2008-02-12T15:19:21+00:00",
+            "level": 5
+        },
+        {
+            "skill": {
+                "name": "Vagrant",
+                "description": "vagrant destroy",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 1
+        },
+        {
+            "skill": {
+                "name": "ansible",
+                "description": "ansible wisdom",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 3
+        },
+        {
+            "skill": {
+                "name": "Java",
+                "description": "java base skill",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 4
+        },
+        {
+            "skill": {
+                "name": "Groovy",
+                "description": "groovy, baby",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 3
+        },
+        {
+            "skill": {
+                "name": "Clojure",
+                "description": "closure but with a 'J'",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 2
+        },
+        {
+            "skill": {
+                "name": "git",
+                "description": "better than svn in every way",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 5
+        },
+        {
+            "skill": {
+                "name": "svn",
+                "description": "still useful",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 3
+        },
+        {
+            "skill": {
+                "name": "maven",
+                "description": "java build tool",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 4
+        },
+        {
+            "skill": {
+                "name": "composer",
+                "description": "PHP build tool",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 2
+        },
+        {
+            "skill": {
+                "name": "python",
+                "description": "what more could you need",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 4
+        },
+        {
+            "skill": {
+                "name": "scrum",
+                "description": "you can be our next scrum master",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 1
+        },
+        {
+            "skill": {
+                "name": "spring",
+                "description": "java framework that everybody's talking about",
+                "url": "https://www.vagrantup.com/"
+            },
+            "startDate": "2016-02-12T15:19:21+00:00",
+            "lastUsage": "2016-02-22T15:19:21+00:00",
+            "level": 3
         }
     ]
 }
