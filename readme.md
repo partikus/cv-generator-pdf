@@ -29,3 +29,18 @@ Alternatively you can just use docker definitions to run the application.
 
 For an idea how to exactly, see `docker.sh`
 
+## Quick demo
+
+To see a hardcoded example dataset presented as both page and pdf report just try this:
+
+```
+./docker.sh build
+./docker.sh run-server
+```
+
+And enter one of the URLs to see the result:
+
+```
+http://localhost:8090/dummy/example
+http://localhost:8090/dummy_pdf/example
+```
